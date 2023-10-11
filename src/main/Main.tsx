@@ -1,23 +1,47 @@
 import React from 'react';
 import style from './Main.module.scss'
 import styleContainer from '../common/styles/Container.module.css'
+import Particles from "react-tsparticles";
+import Fade from 'react-reveal/Fade';
+import ReactTypingEffect from 'react-typing-effect'
+import Title from "../common/components/title/Title";
+
+const particalesOption = {
+    particles: {
+        number: {
+            value: 80,
+            density: {
+                enable: true,
+                value_area: 800
+            }
+        }
+    }
+}
+
 
 const Main = () => {
     return (
         <div className={style.mainBlock}>
-            <div className={styleContainer.container}>
-                ` <div className={style.greeting}>
-                <span> Hi there</span>
-                <span>I am Ustin <span>Kovalenko</span></span>
-                <h1>Fronted Developer.</h1>
-            </div>
-                <div className={style.photo}>
-                    <div className={style.image}>
+            <Particles className={style.particles} params={particalesOption}/>
+            <Fade top>
+                <div className={styleContainer.container}>
+                    <div className={style.greeting}>
+                        <span> Hi there</span>
+                        <span>I am Ustin <span>Kovalenko</span></span>
 
+                        <ReactTypingEffect
+                            text='Fronted Developer.'/>
+                        {/*<h1>Fronted Developer.</h1>*/}
                     </div>
-                </div>
 
-            </div>
+                    <div className={style.photo}>
+                        <div className={style.image}>
+
+                        </div>
+                    </div>
+
+                </div>
+            </Fade>
         </div>
     );
 };

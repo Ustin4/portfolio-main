@@ -2,9 +2,19 @@
 @import '../common/styles/sass/mixins';
 
 .mainBlock {
+
   min-height: 100vh;
-  @include flex(row, center, nowrap,wrap);
+  @include flex(row, center, nowrap, wrap);
   padding: 100px 0;
+
+  .particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.3;
+  }
 
   .container {
     @include container();
@@ -39,33 +49,42 @@
             }
           }
         }
+
+        &:nth-child(3 ) {
+          span{
+            @include text($TextFontFamily, 28px, 1.8, 400);
+            margin: 0;
+          }
+
+        }
       }
-      h1{
-        @include text($TextFontFamily,28px,1.8,400);
-        margin: 0;
-      }
-      @media screen and (max-width: 1143px){
+
+
+      @media screen and (max-width: 1143px) {
         align-items: center;
       }
     }
-    .photo{
+
+    .photo {
       position: relative;
       z-index: 1;
-      @media  screen and (max-width: 1143px){
+      @media screen and (max-width: 1143px) {
         margin-top: 50px;
       }
-      .image{
+
+      .image {
         height: 400px;
         width: 300px;
         @include bgSettings();
-        background-image: url("./../assets/image/scr_todolist1.png");
+        background-image: url("./../assets/image/social-network-icon-people-network-vector-23633273.jpg");
         background-position: 80% 0;
-        @media screen and (max-width: 600px){
-         height: 360px;
+        @media screen and (max-width: 600px) {
+          height: 360px;
           width: 260px;
           transition: .5s;
         }
-        &:before{
+
+        &:before {
           content: '';
           position: absolute;
           height: 110%;
