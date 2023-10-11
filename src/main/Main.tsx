@@ -4,8 +4,7 @@ import styleContainer from '../common/styles/Container.module.css'
 import Particles from "react-tsparticles";
 import Fade from 'react-reveal/Fade';
 import ReactTypingEffect from 'react-typing-effect'
-import Title from "../common/components/title/Title";
-
+import cssIcon from "../assets/image/icons8-css-logo-480.png";
 const particalesOption = {
     particles: {
         number: {
@@ -20,6 +19,11 @@ const particalesOption = {
 
 
 const Main = () => {
+    const css = {
+        backgroundImage: `url(${cssIcon})`
+    };
+    const Fade = require("react-reveal/Fade");
+
     return (
         <div className={style.mainBlock}>
             <Particles className={style.particles} params={particalesOption}/>
@@ -35,7 +39,7 @@ const Main = () => {
                     </div>
 
                     <div className={style.photo}>
-                        <div className={style.image}>
+                        <div style={css} className={style.image}>
 
                         </div>
                     </div>
