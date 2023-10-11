@@ -1,18 +1,24 @@
 @import "./../common/styles/sass/variables";
+@import '../common/components/button/Button.module';
+
 .hireBlock {
+  padding: 100px 0;
 
+  .HireContainer {
+    @include container();
+    @include flex(column, flex-start, center, nowrap);
+  }
+  .hireBth {
+    @extend .bth;
+    align-self: center;
+    background-color: transparent;
+    margin-top: 30px;
+    @media screen and (max-width: 680px) {
+      width: 100%;
+    }
+  }
 }
 
 
-.HireContainer {
-    flex-direction: column;
-    justify-content: center;
-}
 
-.title {
-    background-color: darkgrey;
-}
-.hireBth {
-    padding: 10px 20px;
-    background-color: darkgrey
-}
+
