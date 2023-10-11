@@ -1,0 +1,40 @@
+
+@import "./../../common/styles/sass/variables";
+@import "./../../common/styles/sass/mixins";
+
+.skill {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  padding: 205px 20px;
+
+
+  .icon {
+    position: relative;
+    width: 100px;
+    height: 100px;
+
+    &::before {
+      width: 150px;
+      height: 150px;
+      position: absolute;
+      content: '';
+      background-color: gray;
+      top: -60px;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0.1;
+      transform: rotate(50deg);
+
+    }
+
+  }
+
+  .description {
+    @include text($TextFontFamily, 12px, 1.8, 400);
+    font-weight: 400;
+  }
+}
+
+
