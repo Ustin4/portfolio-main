@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.eba1a3ee.css",
+    "main.js": "/static/js/main.d8d80bed.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/social-network-icon-people-network-vector-23633273.jpg": "/static/media/social-network-icon-people-network-vector-23633273.e1548a0ea253fd360cc7.jpg",
+    "static/media/Снимок экрана 2023-08-17 161736.png": "/static/media/Снимок экрана 2023-08-17 161736.72f2f24936bacabad3c3.png",
+    "index.html": "/index.html",
+    "main.eba1a3ee.css.map": "/static/css/main.eba1a3ee.css.map",
+    "main.d8d80bed.js.map": "/static/js/main.d8d80bed.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eba1a3ee.css",
+    "static/js/main.d8d80bed.js"
+  ]
+}
