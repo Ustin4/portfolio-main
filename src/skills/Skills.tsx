@@ -7,23 +7,15 @@ import jsIcon from "../assets/image/icons8-js-100.png"
 import reactIcon from "../assets/image/icons8-react-480.png"
 
 const Skills = () => {
-    const css = {
-        backgroundImage: `url(${cssIcon})`
-    };
-    const js = {
-        backgroundImage: `url(${jsIcon})`
-    };
-    const react = {
-        backgroundImage: `url(${reactIcon})`
-    };
+
     return (
-        <div className={style.skillsBlock}>
+        <div id='skills' className={style.skillsBlock}>
             <div className={style.skillsContainer}>
                 <Title text={'Skills'}/>
                 <div className={style.skills}>
-                    <Skill style={js} title={'Js'} description={'123ewewda'}/>
-                    <Skill style={css} title={'CSS'} description={'sdasdasd'}/>
-                    <Skill style={react} title={'React'} description={'sadasdasd'}/>
+                    <Skill title={'Js'} description={'123ewewda'} icon={<img  src={jsIcon} alt="JS"/>}/>
+                    <Skill title={'CSS'} description={'sdasdasd'} icon={<img src={cssIcon} alt='css'/>}/>
+                    <Skill title={'React'} description={'sadasdasd'} icon={<img src={reactIcon} alt='React'/>}/>
                 </div>
             </div>
         </div>

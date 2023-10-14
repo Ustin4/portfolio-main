@@ -1,48 +1,44 @@
 import React from 'react';
 import style from './Main.module.scss'
-import styleContainer from '../common/styles/Container.module.css'
-import Particles from "react-tsparticles";
-import Fade from 'react-reveal/Fade';
 import ReactTypingEffect from 'react-typing-effect'
 import cssIcon from "../assets/image/icons8-css-logo-480.png";
-const particalesOption = {
-    particles: {
-        number: {
-            value: 80,
-            density: {
-                enable: true,
-                value_area: 800
-            }
-        }
-    }
-}
+import {Fade} from "react-awesome-reveal";
+import Tilt from 'react-parallax-tilt';
+import ParticlesComponent from "../common/components/ParticlesComponent/ParticlesComponent";
 
 
 const Main = () => {
-    const css = {
-        backgroundImage: `url(${cssIcon})`
-    };
-    const Fade = require("react-reveal/Fade");
+
+    // {/*<div className={style.greeting}>*/}
+    // {/*    <span> Hi there</span>*/}
+    // {/*    <span>I am Ustin <span>Kovalenko</span></span>*/}
+    // {/*    <br/>*/}
+    // {/*    <ReactTypingEffect*/}
+    // {/*        text='Fronted Developer.'/>*/}
+    // {/*    /!*<h1>Fronted Developer.</h1>*!/*/}
+    // {/*</div>*/}
 
     return (
-        <div className={style.mainBlock}>
-            <Particles className={style.particles} params={particalesOption}/>
-            <Fade top>
-                <div className={styleContainer.container}>
-                    <div className={style.greeting}>
-                        <span> Hi there</span>
-                        <span>I am Ustin <span>Kovalenko</span></span>
 
-                        <ReactTypingEffect
-                            text='Fronted Developer.'/>
-                        {/*<h1>Fronted Developer.</h1>*/}
+        <div id='main' className={style.mainBlock}>
+            <ParticlesComponent/>
+            <Fade delay={100} triggerOnce style={{width: '100%'}}>
+                <div className={style.container}>
+
+                    <div className={style.titleBlock}>
+                        <span className={style.subTitle}> Hi there</span>
+                        <h1 className={style.title}>I am Ustin Kovalenko
+                            <br/>
+                            <ReactTypingEffect
+                                text='Fronted Developer.'
+                            />
+                        </h1>
+
                     </div>
 
-                    <div className={style.photo}>
-                        <div style={css} className={style.image}>
-
-                        </div>
-                    </div>
+                    <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10}>
+                        <img className={style.photo} src={cssIcon}/>
+                    </Tilt>
 
                 </div>
             </Fade>

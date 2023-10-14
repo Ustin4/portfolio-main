@@ -14,18 +14,21 @@
     width: 100px;
     height: 100px;
 
+
     &::before {
       width: 150px;
       height: 150px;
       position: absolute;
       content: '';
       background-color: gray;
-      top: -60px;
+      //top: -60px;
+      top: 50%;
+      left: 50%;
       bottom: 0;
-      left: 0;
+      //left: 0;
       right: 0;
       opacity: 0.1;
-      transform: rotate(50deg);
+      transform: translate(-50%, -50%) rotate(50deg);
 
     }
 

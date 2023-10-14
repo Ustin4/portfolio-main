@@ -10,7 +10,7 @@ type ProjectPropsType = {
 
 const Project = (props: ProjectPropsType) => {
     return (
-        <div className={style.project}>
+        <div  className={style.project}>
             <div className={style.image}
                  style={props.style}>
                 <a href={props.projectLink} className={style.viewBth} >Смотреть</a>

@@ -24,12 +24,13 @@
       @include flex(column, flex-start, flex-start, nowrap);
 
       span {
-        font-size: 16px;
+        font-size: 58px;
 
         &:nth-child(2) {
           @include text($TitleFontFamily, 50px, 1.2, 700);
           letter-spacing: 5px;
           margin: 10px 0;
+
 
           span {
             @include text($TitleFontFamily, 50px, 1.2, 700);
@@ -51,7 +52,7 @@
         }
 
         &:nth-child(3 ) {
-          span{
+          span {
             @include text($TextFontFamily, 28px, 1.8, 400);
             margin: 0;
           }
@@ -66,34 +67,28 @@
     }
 
     .photo {
-      position: relative;
-      z-index: 1;
-      @media screen and (max-width: 1143px) {
-        margin-top: 50px;
+      margin: 10px;
+      border-radius: 15px;
+
+      &:before {
+        content: '';
+        position: absolute;
+        height: 110%;
+        width: 105%;
+        border: 5px solid $primaryColor;
+        left: 15px;
+        top: -15px;
+        z-index: -1;
       }
 
-      .image {
-        height: 400px;
-        width: 300px;
-        @include bgSettings();
-        background-image: url("./../assets/image/scr_todolist1.png");
-        background-position: 80% 0;
-        @media screen and (max-width: 600px) {
-          height: 360px;
-          width: 260px;
-          transition: .5s;
-        }
-
-        &:before {
-          content: '';
-          position: absolute;
-          height: 110%;
-          width: 105%;
-          border: 5px solid $primaryColor;
-          left: 15px;
-          top: -15px;
-          z-index: -1;
-        }
+      @media screen and (max-width: 1300px) {
+        max-width: 400px;
+      }
+      @media screen and (max-width: 1250px) {
+        max-width: 300px;
+      }
+      @media screen and (max-width: 380px) {
+        max-width: 280px;
       }
     }
 
