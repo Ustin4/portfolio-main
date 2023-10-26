@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <div className={style.footer}>
             <div className={style.container}>
-                <Title text={'Ustin Kavalenka'}/>
+                <Title text={'Ustin Kovalenko'}/>
                 <div className={style.socialIcons}>
                     <div className={style.socialIcon}>
                         <a href='https://t.me/Ustin4'>

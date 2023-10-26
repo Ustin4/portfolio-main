@@ -1,55 +1,71 @@
-@import "../../common/styles/sass/mixins";
-@import "../../common/styles/sass/variables";
+@import '../../common/styles/sass/variables';
+@import '../../common/styles/sass/mixins';
 
 .burgerNav {
   width: 100%;
   height: 100%;
-  //background-color: silver;
-  position: relative;
+  font-family: $TitleFontFamily;
 
   .burgerNavItems {
+    @include flex(column, space-between, center, nowrap);
     position: absolute;
     right: 0;
     left: 0;
     top: 0;
-    @include flex(column, space-between, center, nowrap);
-    background-color: #252527;
     height: 0;
-    padding: 20px;
-    //transform: translate(0,-150px);
-    transition: 0.7s;
+    background-color: $bgPrimary;
+    padding: 10px;
+    transform: translate(0, -180px);
+    transition: 0.5s;
 
     a {
-      @include text($TitleFontFamily, 16px, 1.2, 400);
+      padding: 10px 15px;
+      transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+      letter-spacing: 0.2px;
+      border-radius: 4px;
+      position: relative;
       color: $textColor;
+      text-decoration: none;
       cursor: pointer;
 
       &:hover {
-        text-decoration: none;
-        color: $primaryColor;
+        background-color: $primaryColor;
+        transition: 0.3s;
       }
     }
 
     .active {
-      color: $primaryColor;
+      background-color: $primaryColor;
+      transition: 0.3s;
     }
   }
 
-  .show {
-    transform: translate(0,0);
-height: 150px;
-  }
-
-  .burgerBth {
+  .burgerButton {
     width: 30px;
     height: 30px;
+    border-radius: 5px;
     background-color: $primaryColor;
     position: absolute;
-    top: 24px;
+    top: 28px;
+    right: 20px;
+  }
+  .burgerButtonOn {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    position: absolute;
+    top: 28px;
     right: 20px;
   }
 
-  @media screen and (min-width: 400px) {
+  .show {
+    transform: translate(0, 0);
+    height: 180px;
+  }
+
+  @media screen and (min-width: 576px) {
     display: none;
   }
+
 }
+

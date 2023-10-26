@@ -16,7 +16,7 @@
 import style from './Header.module.scss'
 import React from "react";
 import {Nav} from "./Nav/Nav";
-import BurgerNav from "./burgerNav/BurgerNav";
+import {BurgerNav} from "./burgerNav/BurgerNav";
 
 
 
