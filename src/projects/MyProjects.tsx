@@ -54,16 +54,16 @@ export const MyProjects = (props: any) => {
                     <div className={style.myProjects}>
                         <MyProject image={social} title={'Social Network'}
                                    description={'Stack: TS, React, Redux, Redux-Thunk, React Router DOM, Axios, Formik'}
-                                   link={'https://github.com/DreamLife37/React_Project_Social_Network_TS'}/>
+                                   link={'https://github.com/Ustin4/Social'}/>
                         <MyProject image={social} title={'Todolist'}
                                    description={'Stack: TS, React, Redux, Redux-Thunk, React Router DOM, Axios, Formik, MUI, Storybook'}
-                                   link={'https://github.com/DreamLife37/React_Project_Todolist_TS'}/>
-                        <MyProject image={social} title={'Project Food'}
-                                   description={'Stack: JavaScript, Fetch API'}
-                                   link={'https://github.com/DreamLife37/JS_Project_Food'}/>
-                        <MyProject  image={social} title={'Project Cards'}
-                                   description={'Stack: TS, React, Redux Toolkit, Redux-Thunk, React Router DOM, Axios, Formik, MUI'}
-                                   link={'https://github.com/DreamLife37/React_Project_Cards'}/>
+                                   link={'https://github.com/Ustin4/1-todoList'}/>
+                        {/*<MyProject image={social} title={'Project Food'}*/}
+                        {/*           description={'Stack: JavaScript, Fetch API'}*/}
+                        {/*           link={'https://github.com/DreamLife37/JS_Project_Food'}/>*/}
+                        {/*<MyProject  image={social} title={'Project Cards'}*/}
+                        {/*           description={'Stack: TS, React, Redux Toolkit, Redux-Thunk, React Router DOM, Axios, Formik, MUI'}*/}
+                        {/*           link={'https://github.com/DreamLife37/React_Project_Cards'}/>*/}
                     </div>
                 </div>
             </Fade>
