@@ -1,4 +1,3 @@
-
 @import "./../../common/styles/sass/variables";
 @import "./../../common/styles/sass/mixins";
 
@@ -21,11 +20,9 @@
       position: absolute;
       content: '';
       background-color: gray;
-      //top: -60px;
       top: 50%;
       left: 50%;
       bottom: 0;
-      //left: 0;
       right: 0;
       opacity: 0.1;
       transform: translate(-50%, -50%) rotate(50deg);
@@ -34,9 +31,20 @@
 
   }
 
-  .description {
-    @include text($TextFontFamily, 12px, 1.8, 400);
-    font-weight: 400;
+  .descriptionContainer {
+    margin: 35px;
+
+    .title {
+      display: flex;
+      justify-content: center;
+    }
+
+    .description {
+      @include text($TextFontFamily, 17px, 1.8, 400);
+      font-weight: 400;
+      display: flex;
+      justify-content: center;
+    }
   }
 }
 

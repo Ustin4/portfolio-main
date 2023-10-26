@@ -5,16 +5,20 @@ type SkillPropsType = {
     title: string
     description: string
     //style:any
-    icon: ReactElement
+    icon: string
 }
 
-const Skill = (props: SkillPropsType) => {
+const Skill = ({title, description, icon}: SkillPropsType) => {
     return (
         <div className={style.skill}>
             {/*<div className={style.icon} style={props.style}></div>*/}
-            <div className={style.icon}>{props.icon}</div>
-            <h3>{props.title}</h3>
-            <span className={style.description}>{props.description}</span>
+            <div className={style.icon}>
+                <img className={style.icon} src={icon} alt="Icon Skils"/>
+            </div>
+            <div className={style.descriptionContainer}>
+                <h2 className={style.title}>{title}</h2>
+                <span className={style.description}>{description}</span>
+            </div>
         </div>
     );
 };

@@ -11,25 +11,6 @@ const BurgerNav = () => {
     }
     const heightHeader = 80
     return (
-        // <div className={style.burgerNav}>
-        //     <div className={menuIsOpen ? `${style.burgerNavItems} ${style.show}` : style.burgerNavItems}>
-        //         {/*<a href="">Main</a>*/}
-        //         {/*<a href="">Skills</a>*/}
-        //         <Link
-        //             activeClass={style.active}
-        //             to='projects'
-        //             spy={true}
-        //             smooth={true}
-        //             offset={1}
-        //             duration={500}
-        //         >
-        //             Projects
-        //         </Link>
-        //         {/*<a href="#projects">Проекты</a>*/}
-        //         {/*<a href="">Contacts</a>*/}
-        //     </div>
-        //     <div onClick={onBurgerBthClick} className={style.burgerBth}></div>
-
         <div className={style.burgerNav}>
             <div className={`${style.burgerNavItems} ${menuIsOpen ? style.show : ''}`}>
                 <Link activeClass={style.active} offset={-heightHeader} to="main" spy={true} smooth={true}

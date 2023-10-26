@@ -13,9 +13,9 @@ const Skills = () => {
             <div className={style.skillsContainer}>
                 <Title text={'Skills'}/>
                 <div className={style.skills}>
-                    <Skill title={'Js'} description={'123ewewda'} icon={<img  src={jsIcon} alt="JS"/>}/>
-                    <Skill title={'CSS'} description={'sdasdasd'} icon={<img src={cssIcon} alt='css'/>}/>
-                    <Skill title={'React'} description={'sadasdasd'} icon={<img src={reactIcon} alt='React'/>}/>
+                    <Skill title={'Js'} description={'This is a language from programin'} icon={jsIcon}/>
+                    <Skill title={'CSS'} description={'sdasdasd'} icon={cssIcon}/>
+                    <Skill title={'React'} description={'sadasdasd'} icon={reactIcon}/>
                 </div>
             </div>
         </div>
