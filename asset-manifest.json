@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.eba1a3ee.css",
-    "main.js": "/static/js/main.d8d80bed.js",
-    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
-    "static/media/social-network-icon-people-network-vector-23633273.jpg": "/static/media/social-network-icon-people-network-vector-23633273.e1548a0ea253fd360cc7.jpg",
-    "static/media/Снимок экрана 2023-08-17 161736.png": "/static/media/Снимок экрана 2023-08-17 161736.72f2f24936bacabad3c3.png",
-    "index.html": "/index.html",
-    "main.eba1a3ee.css.map": "/static/css/main.eba1a3ee.css.map",
-    "main.d8d80bed.js.map": "/static/js/main.d8d80bed.js.map",
-    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/portfolio-main/static/css/main.172e6062.css",
+    "main.js": "/portfolio-main/static/js/main.e26fb23a.js",
+    "static/js/787.28cb0dcd.chunk.js": "/portfolio-main/static/js/787.28cb0dcd.chunk.js",
+    "static/media/photo_2023-10-26_19-10-10.jpg": "/portfolio-main/static/media/photo_2023-10-26_19-10-10.0ad2cb8588e665dc5a07.jpg",
+    "static/media/telegram-icon-2048x2048-5hgjjk0t.png": "/portfolio-main/static/media/telegram-icon-2048x2048-5hgjjk0t.502c8c957104f4cd0542.png",
+    "static/media/github-svgrepo-com (3) 1.svg": "/portfolio-main/static/media/github-svgrepo-com (3) 1.c0b101b5b9684a82ceda6f090610e33d.svg",
+    "static/media/vk-social-logotype.svg": "/portfolio-main/static/media/vk-social-logotype.daab149b5fbce62b58d148263f70a4e9.svg",
+    "index.html": "/portfolio-main/index.html",
+    "main.172e6062.css.map": "/portfolio-main/static/css/main.172e6062.css.map",
+    "main.e26fb23a.js.map": "/portfolio-main/static/js/main.e26fb23a.js.map",
+    "787.28cb0dcd.chunk.js.map": "/portfolio-main/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eba1a3ee.css",
-    "static/js/main.d8d80bed.js"
+    "static/css/main.172e6062.css",
+    "static/js/main.e26fb23a.js"
   ]
 }
