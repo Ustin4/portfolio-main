@@ -1,13 +1,13 @@
 import React from 'react';
 import style from './Main.module.scss'
 import ReactTypingEffect from 'react-typing-effect'
-import cssIcon from "../assets/image/icons8-css-logo-480.png";
+import photo from "../assets/image/photo_2023-10-26_19-10-10.jpg";
 import {Fade} from "react-awesome-reveal";
 import Tilt from 'react-parallax-tilt';
 import ParticlesComponent from "../common/components/ParticlesComponent/ParticlesComponent";
 
 
-const Main = () => {
+export const Main = () => {
 
     return (
 
@@ -27,8 +27,8 @@ const Main = () => {
 
                     </div>
 
-                    <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10}>
-                        <img className={style.photo} src={cssIcon}/>
+                    <Tilt className={style.tilt} tiltMaxAngleX={10} tiltMaxAngleY={10}>
+                        <img className={style.photo} src={photo}/>
                     </Tilt>
 
                 </div>
@@ -37,4 +37,3 @@ const Main = () => {
     );
 };
 
-export default Main;

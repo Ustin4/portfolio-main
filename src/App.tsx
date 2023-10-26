@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.scss';
 import {Header} from "./header/Header";
-import Main from "./main/Main";
+import {Main} from "./main/Main";
 import Contact from "./contacts/Contact";
 import Footer from "./footer/Footer";
 import {AboutMe} from "./skills/AboutMe";
