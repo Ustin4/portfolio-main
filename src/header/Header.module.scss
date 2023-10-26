@@ -1,7 +1,33 @@
-@import "./../common/styles/sass/variables";
+@import '../common/styles/sass/mixins.scss';
+@import '../common/styles/sass/variables.scss';
+
 .header {
-    height: 80px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    @include flex(row, space-between, center, nowrap);
+    width: 100%;
+    min-height: 80px;
+    background-color: $bgSecondary;
+    //position: sticky;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.95;
+    z-index: 2;
+
+    .headerSection {
+        @include flex(row, space-between, center, wrap);
+
+        .active {
+            color: $primaryColor;
+        }
+    }
+
+    .logo {
+        line-height: 20px;
+        color: $textColor;
+        float: left;
+        padding-left: 40px;
+        font-weight: 500;
+    }
 }
+

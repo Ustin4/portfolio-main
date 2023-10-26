@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './Footer.module.scss'
-import Title from "../common/components/title/Title";
+import {Title} from "../common/components/title/Title";
 
 const Footer = () => {
     return (

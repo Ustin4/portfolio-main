@@ -16,8 +16,8 @@ const BurgerNav = () => {
                 <Link activeClass={style.active} offset={-heightHeader} to="main" spy={true} smooth={true}
                       duration={500}>Main</Link>
 
-                <Link activeClass={style.active} offset={-heightHeader} to="projects" spy={true} smooth={true}
-                      duration={500}>MyProjects</Link>
+                <Link activeClass={style.active} offset={-heightHeader} to="AboutMe" spy={true} smooth={true}
+                      duration={500}>About Me</Link>
 
                 <Link activeClass={style.active} offset={-heightHeader} to="contacts" spy={true} smooth={true}
                       duration={500}>Contacts</Link>

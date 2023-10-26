@@ -1,0 +1,39 @@
+@import '../../styles/sass/variables';
+@import '../../styles/sass/mixins';
+
+.title {
+  margin: 0 0 30px;
+  @include text($TitleFontFamily,26px,1.2,300);
+  text-transform: capitalize;
+  letter-spacing: 5px;
+  position: relative;
+  text-align: center;
+  //
+  //.subTitle {
+  //  font-family: 'Poppins', sans-serif;
+  //  font-weight: 600;
+  //  letter-spacing: 0.5px;
+  //  line-height: 18px;
+  //  font-size: 16px;
+  //  border-radius: 4px;
+  //  background: $textColor;
+  //  -webkit-background-clip: text;
+  //  -webkit-text-fill-color: transparent;
+  //}
+
+  & h2 {
+    margin: 0;
+  }
+
+  & p {
+   padding: 15px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 18px;
+    font-size: 16px;
+    border-radius: 4px;
+    background: $textColor;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}

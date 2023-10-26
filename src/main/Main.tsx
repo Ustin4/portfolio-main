@@ -9,15 +9,6 @@ import ParticlesComponent from "../common/components/ParticlesComponent/Particle
 
 const Main = () => {
 
-    // {/*<div className={style.greeting}>*/}
-    // {/*    <span> Hi there</span>*/}
-    // {/*    <span>I am Ustin <span>Kovalenko</span></span>*/}
-    // {/*    <br/>*/}
-    // {/*    <ReactTypingEffect*/}
-    // {/*        text='Fronted Developer.'/>*/}
-    // {/*    /!*<h1>Fronted Developer.</h1>*!/*/}
-    // {/*</div>*/}
-
     return (
 
         <div id='main' className={style.mainBlock}>

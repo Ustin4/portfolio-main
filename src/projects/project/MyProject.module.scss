@@ -1,5 +1,6 @@
 @import "./../../common/styles/sass/variables";
 @import "./../../common/styles/sass/mixins";
+
 .project {
   width: 450px;
   display: flex;
@@ -36,21 +37,25 @@
     }
   }
 
-  .projectInfo {
-    padding: 25px 20px;
-
-    .projectTitle {
-      @include text($TitleFontFamily,16px,1.2,400);
-      letter-spacing: 1px;
-      margin: 0 0 5px;
+  .content {
 
 
-    }
 
-    .description {
-      @include text($TextFontFamily,12px,1.8,400);
-      font-weight: 400;
-    }
+      .description {
+        @include text($TextFontFamily, 12px, 1.8, 400);
+        font-weight: 400;
+        color: $textColor;
+      }
+  }
+}
+
+.projectTitle {
+  @include text($TitleFontFamily, 19px, 1.8, 400);
+  letter-spacing: 1px;
+  margin: 0 0 5px;
+
+  &:hover{
+    color: #b2e9ff;
   }
 }
 

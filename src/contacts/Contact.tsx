@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './Contact.module.scss'
-import Title from "../common/components/title/Title";
+import {Title} from "../common/components/title/Title";
 import Fade from "react-reveal/Fade";
 import {useFormik} from "formik";
 

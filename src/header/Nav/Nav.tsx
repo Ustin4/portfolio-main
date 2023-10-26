@@ -9,10 +9,8 @@ export const Nav = () => {
         <div className={style.navSection}>
             <Link activeClass={style.active} to="main" spy={true} smooth={true}
                   duration={500} offset={-heightHeader}>Main</Link>
-            <Link activeClass={style.active} to="skills" spy={true} smooth={true}
-                  duration={500} offset={-heightHeader}>Skills</Link>
-            <Link activeClass={style.active} to="projects" spy={true} smooth={true}
-                  duration={500} offset={-heightHeader}>MyProjects</Link>
+            <Link activeClass={style.active} to="aboutMe" spy={true} smooth={true}
+                  duration={500} offset={-heightHeader}>About Me</Link>
             <Link activeClass={style.active} to="contacts" spy={true} smooth={true}
                   duration={500} offset={-heightHeader}>Contacts</Link>
         </div>
