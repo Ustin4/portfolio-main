@@ -47,7 +47,7 @@ import Tilt from 'react-parallax-tilt';
 import React from "react";
 
 
-export const Main= () => {
+export const Main = () => {
     return (
         <div id='main' className={style.mainBlock}>
             <Fade delay={100} triggerOnce style={{width: '100%'}}>
@@ -62,7 +62,7 @@ export const Main= () => {
                         </h1>
                     </div>
                     <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10}>
-                        <img className={style.photo} src={photo}/>
+                        <img className={style.photo} alt={'photo'} src={photo}/>
                     </Tilt>
                 </div>
 

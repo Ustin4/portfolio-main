@@ -152,8 +152,8 @@
 
     .photo {
       margin: 10px;
-      //max-width: 330px;
-      //height: 380px;
+      max-width: 330px;
+      height: 380px;
       background-color: $textColor;
       border-radius: 15px;
       @media screen and (max-width: 1300px) {
