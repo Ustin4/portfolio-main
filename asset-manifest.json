@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio-main/static/css/main.c973be21.css",
-    "main.js": "/portfolio-main/static/js/main.237e74aa.js",
+    "main.css": "/portfolio-main/static/css/main.9d5c4b23.css",
+    "main.js": "/portfolio-main/static/js/main.9cc2c2cb.js",
     "static/js/787.28cb0dcd.chunk.js": "/portfolio-main/static/js/787.28cb0dcd.chunk.js",
     "static/media/photo_2023-10-26_19-10-10.jpg": "/portfolio-main/static/media/photo_2023-10-26_19-10-10.0ad2cb8588e665dc5a07.jpg",
     "static/media/telegram-icon-2048x2048-5hgjjk0t.png": "/portfolio-main/static/media/telegram-icon-2048x2048-5hgjjk0t.502c8c957104f4cd0542.png",
-    "static/media/Hamburger_icon.svg.png": "/portfolio-main/static/media/Hamburger_icon.svg.a633845bca57a0d1a648.png",
-    "static/media/github-svgrepo-com (3) 1.svg": "/portfolio-main/static/media/github-svgrepo-com (3) 1.c0b101b5b9684a82ceda6f090610e33d.svg",
+    "static/media/github-svgrepo-com (3) 1.svg": "/portfolio-main/static/media/github-svgrepo-com (3) 1.90fad33cf52f7b53fe9fb0cebdf98e48.svg",
     "static/media/vk-social-logotype.svg": "/portfolio-main/static/media/vk-social-logotype.daab149b5fbce62b58d148263f70a4e9.svg",
     "index.html": "/portfolio-main/index.html",
-    "main.c973be21.css.map": "/portfolio-main/static/css/main.c973be21.css.map",
-    "main.237e74aa.js.map": "/portfolio-main/static/js/main.237e74aa.js.map",
+    "static/media/burger-menu-svgrepo-com.svg": "/portfolio-main/static/media/burger-menu-svgrepo-com.fc12fbd678bea2ce4ec9524cbe12a170.svg",
+    "main.9d5c4b23.css.map": "/portfolio-main/static/css/main.9d5c4b23.css.map",
+    "main.9cc2c2cb.js.map": "/portfolio-main/static/js/main.9cc2c2cb.js.map",
     "787.28cb0dcd.chunk.js.map": "/portfolio-main/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c973be21.css",
-    "static/js/main.237e74aa.js"
+    "static/css/main.9d5c4b23.css",
+    "static/js/main.9cc2c2cb.js"
   ]
 }
